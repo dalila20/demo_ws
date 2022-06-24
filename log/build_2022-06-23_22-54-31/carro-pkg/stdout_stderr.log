@@ -1,0 +1,28 @@
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+running egg_info
+writing ../../build/carro-pkg/carro_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/carro-pkg/carro_pkg.egg-info/dependency_links.txt
+writing requirements to ../../build/carro-pkg/carro_pkg.egg-info/requires.txt
+writing top-level names to ../../build/carro-pkg/carro_pkg.egg-info/top_level.txt
+reading manifest file '../../build/carro-pkg/carro_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/carro-pkg/carro_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying carro-pkg/__init__.py -> /home/mara/demo_ws/build/carro-pkg/build/lib/carro-pkg
+running install
+/usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/mara/demo_ws/build/carro-pkg/build/lib/carro-pkg/__init__.py -> /home/mara/demo_ws/install/carro-pkg/lib/python3.8/site-packages/carro-pkg
+byte-compiling /home/mara/demo_ws/install/carro-pkg/lib/python3.8/site-packages/carro-pkg/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/carro-pkg -> /home/mara/demo_ws/install/carro-pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/mara/demo_ws/install/carro-pkg/share/carro-pkg
+running install_egg_info
+removing '/home/mara/demo_ws/install/carro-pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/carro-pkg/carro_pkg.egg-info to /home/mara/demo_ws/install/carro-pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/mara/demo_ws/build/carro-pkg/install.log'

@@ -1,0 +1,38 @@
+[2.318s] Invoking command in '/home/mara/demo_ws/src/carro_pkg': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/carro_pkg build --build-base /home/mara/demo_ws/build/carro_pkg/build install --prefix /home/mara/demo_ws/install/carro_pkg --record /home/mara/demo_ws/build/carro_pkg/install.log --single-version-externally-managed
+[2.661s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.662s]   warnings.warn(
+[2.662s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.662s]   warnings.warn(
+[3.416s] running egg_info
+[3.417s] creating ../../build/carro_pkg/carro_pkg.egg-info
+[3.497s] writing ../../build/carro_pkg/carro_pkg.egg-info/PKG-INFO
+[3.560s] writing dependency_links to ../../build/carro_pkg/carro_pkg.egg-info/dependency_links.txt
+[3.874s] writing requirements to ../../build/carro_pkg/carro_pkg.egg-info/requires.txt
+[3.937s] writing top-level names to ../../build/carro_pkg/carro_pkg.egg-info/top_level.txt
+[3.939s] writing manifest file '../../build/carro_pkg/carro_pkg.egg-info/SOURCES.txt'
+[4.037s] reading manifest file '../../build/carro_pkg/carro_pkg.egg-info/SOURCES.txt'
+[4.037s] writing manifest file '../../build/carro_pkg/carro_pkg.egg-info/SOURCES.txt'
+[4.038s] running build
+[4.038s] running build_py
+[4.038s] creating /home/mara/demo_ws/build/carro_pkg/build
+[4.038s] creating /home/mara/demo_ws/build/carro_pkg/build/lib
+[4.038s] creating /home/mara/demo_ws/build/carro_pkg/build/lib/carro_pkg
+[4.038s] copying carro_pkg/__init__.py -> /home/mara/demo_ws/build/carro_pkg/build/lib/carro_pkg
+[4.038s] running install
+[4.038s] /usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.038s]   warnings.warn(
+[4.044s] running install_lib
+[4.136s] creating /home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg
+[4.136s] copying /home/mara/demo_ws/build/carro_pkg/build/lib/carro_pkg/__init__.py -> /home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg
+[4.136s] byte-compiling /home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg/__init__.py to __init__.cpython-38.pyc
+[4.136s] running install_data
+[4.154s] creating /home/mara/demo_ws/install/carro_pkg/share/ament_index
+[4.154s] creating /home/mara/demo_ws/install/carro_pkg/share/ament_index/resource_index
+[4.154s] creating /home/mara/demo_ws/install/carro_pkg/share/ament_index/resource_index/packages
+[4.154s] copying resource/carro_pkg -> /home/mara/demo_ws/install/carro_pkg/share/ament_index/resource_index/packages
+[4.154s] copying package.xml -> /home/mara/demo_ws/install/carro_pkg/share/carro_pkg
+[4.154s] running install_egg_info
+[4.239s] Copying ../../build/carro_pkg/carro_pkg.egg-info to /home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info
+[4.240s] running install_scripts
+[4.389s] writing list of installed files to '/home/mara/demo_ws/build/carro_pkg/install.log'
+[4.430s] Invoked command in '/home/mara/demo_ws/src/carro_pkg' returned '0': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/carro_pkg build --build-base /home/mara/demo_ws/build/carro_pkg/build install --prefix /home/mara/demo_ws/install/carro_pkg --record /home/mara/demo_ws/build/carro_pkg/install.log --single-version-externally-managed

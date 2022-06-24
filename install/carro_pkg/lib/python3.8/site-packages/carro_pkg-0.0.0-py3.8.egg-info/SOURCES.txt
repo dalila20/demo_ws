@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/carro_pkg/carro_pkg.egg-info/PKG-INFO
+../../build/carro_pkg/carro_pkg.egg-info/SOURCES.txt
+../../build/carro_pkg/carro_pkg.egg-info/dependency_links.txt
+../../build/carro_pkg/carro_pkg.egg-info/entry_points.txt
+../../build/carro_pkg/carro_pkg.egg-info/requires.txt
+../../build/carro_pkg/carro_pkg.egg-info/top_level.txt
+../../build/carro_pkg/carro_pkg.egg-info/zip-safe
+carro_pkg/__init__.py
+resource/carro_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

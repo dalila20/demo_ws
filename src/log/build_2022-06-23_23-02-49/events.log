@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000932] (carro_pkg) JobQueued: {'identifier': 'carro_pkg', 'dependencies': OrderedDict()}
+[0.001002] (carro_pkg) JobStarted: {'identifier': 'carro_pkg'}
+[0.099760] (-) TimerEvent: {}
+[0.200159] (-) TimerEvent: {}
+[0.300453] (-) TimerEvent: {}
+[0.400731] (-) TimerEvent: {}
+[0.501003] (-) TimerEvent: {}
+[0.601275] (-) TimerEvent: {}
+[0.701546] (-) TimerEvent: {}
+[0.801858] (-) TimerEvent: {}
+[0.902205] (-) TimerEvent: {}
+[1.002493] (-) TimerEvent: {}
+[1.102778] (-) TimerEvent: {}
+[1.203028] (-) TimerEvent: {}
+[1.303310] (-) TimerEvent: {}
+[1.403581] (-) TimerEvent: {}
+[1.503857] (-) TimerEvent: {}
+[1.604165] (-) TimerEvent: {}
+[1.704405] (-) TimerEvent: {}
+[1.804712] (-) TimerEvent: {}
+[1.819266] (carro_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/carro_pkg', 'build', '--build-base', '/home/mara/demo_ws/src/build/carro_pkg/build', 'install', '--prefix', '/home/mara/demo_ws/src/install/carro_pkg', '--record', '/home/mara/demo_ws/src/build/carro_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/mara/demo_ws/src/carro_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SDKMAN_VERSION': '5.15.0', 'LANGUAGE': 'pt_BR:pt:en', 'USER': 'mara', 'SSH_AGENT_PID': '1858', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mara/px4_ros_com_ros2/install/px4_ros_com/lib:/home/mara/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/mara', 'OLDPWD': '/home/mara/demo_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GRADLE_HOME': '/home/mara/.sdkman/candidates/gradle/current', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1665', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9920', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/mara/px4_ros_com_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'mara', 'SDKMAN_CANDIDATES_API': 'https://api.sdkman.io/2', 'JOURNAL_STREAM': '8:46027', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'mara', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/mara/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/mara/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/mara/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/mara:@/tmp/.ICE-unix/1895,unix/mara:/tmp/.ICE-unix/1895', 'SDKMAN_CANDIDATES_DIR': '/home/mara/.sdkman/candidates', 'INVOCATION_ID': '6a51330912894486855c51bd80623426', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SDKMAN_DIR': '/home/mara/.sdkman', 'SDKMAN_PLATFORM': 'linuxx64', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mara/px4_ros_com_ros2/install/px4_ros_com:/home/mara/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:39a560e1-8c16-4d47-accc-57c133ef13d8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mara/demo_ws/src/build/carro_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages:/home/mara/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/mara/px4_ros_com_ros2/install/px4_ros_com:/home/mara/px4_ros_com_ros2/install/px4_msgs'}, 'shell': False}
+[1.904875] (-) TimerEvent: {}
+[2.005215] (-) TimerEvent: {}
+[2.105474] (-) TimerEvent: {}
+[2.205735] (-) TimerEvent: {}
+[2.306015] (-) TimerEvent: {}
+[2.406271] (-) TimerEvent: {}
+[2.506548] (-) TimerEvent: {}
+[2.606826] (-) TimerEvent: {}
+[2.673692] (carro_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.674443] (carro_pkg) StdoutLine: {'line': b'creating ../build/carro_pkg/carro_pkg.egg-info\n'}
+[2.706942] (-) TimerEvent: {}
+[2.736501] (carro_pkg) StdoutLine: {'line': b'writing ../build/carro_pkg/carro_pkg.egg-info/PKG-INFO\n'}
+[2.785075] (carro_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/carro_pkg/carro_pkg.egg-info/dependency_links.txt\n'}
+[2.807046] (-) TimerEvent: {}
+[2.907285] (-) TimerEvent: {}
+[3.007517] (-) TimerEvent: {}
+[3.023410] (carro_pkg) StdoutLine: {'line': b'writing requirements to ../build/carro_pkg/carro_pkg.egg-info/requires.txt\n'}
+[3.072705] (carro_pkg) StdoutLine: {'line': b'writing top-level names to ../build/carro_pkg/carro_pkg.egg-info/top_level.txt\n'}
+[3.074485] (carro_pkg) StdoutLine: {'line': b"writing manifest file '../build/carro_pkg/carro_pkg.egg-info/SOURCES.txt'\n"}
+[3.107630] (-) TimerEvent: {}
+[3.148693] (carro_pkg) StdoutLine: {'line': b"reading manifest file '../build/carro_pkg/carro_pkg.egg-info/SOURCES.txt'\n"}
+[3.149321] (carro_pkg) StdoutLine: {'line': b"writing manifest file '../build/carro_pkg/carro_pkg.egg-info/SOURCES.txt'\n"}
+[3.149503] (carro_pkg) StdoutLine: {'line': b'running build\n'}
+[3.149678] (carro_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.149814] (carro_pkg) StdoutLine: {'line': b'creating /home/mara/demo_ws/src/build/carro_pkg/build\n'}
+[3.150205] (carro_pkg) StdoutLine: {'line': b'creating /home/mara/demo_ws/src/build/carro_pkg/build/lib\n'}
+[3.150282] (carro_pkg) StdoutLine: {'line': b'creating /home/mara/demo_ws/src/build/carro_pkg/build/lib/carro_pkg\n'}
+[3.150349] (carro_pkg) StdoutLine: {'line': b'copying carro_pkg/__init__.py -> /home/mara/demo_ws/src/build/carro_pkg/build/lib/carro_pkg\n'}
+[3.150413] (carro_pkg) StdoutLine: {'line': b'running install\n'}
+[3.150585] (carro_pkg) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.150670] (carro_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.154934] (carro_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.207750] (-) TimerEvent: {}
+[3.226307] (carro_pkg) StdoutLine: {'line': b'creating /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg\n'}
+[3.226488] (carro_pkg) StdoutLine: {'line': b'copying /home/mara/demo_ws/src/build/carro_pkg/build/lib/carro_pkg/__init__.py -> /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg\n'}
+[3.226789] (carro_pkg) StdoutLine: {'line': b'byte-compiling /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[3.226961] (carro_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.240470] (carro_pkg) StdoutLine: {'line': b'creating /home/mara/demo_ws/src/install/carro_pkg/share/ament_index\n'}
+[3.240617] (carro_pkg) StdoutLine: {'line': b'creating /home/mara/demo_ws/src/install/carro_pkg/share/ament_index/resource_index\n'}
+[3.240685] (carro_pkg) StdoutLine: {'line': b'creating /home/mara/demo_ws/src/install/carro_pkg/share/ament_index/resource_index/packages\n'}
+[3.240835] (carro_pkg) StdoutLine: {'line': b'copying resource/carro_pkg -> /home/mara/demo_ws/src/install/carro_pkg/share/ament_index/resource_index/packages\n'}
+[3.240924] (carro_pkg) StdoutLine: {'line': b'copying package.xml -> /home/mara/demo_ws/src/install/carro_pkg/share/carro_pkg\n'}
+[3.240987] (carro_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.302958] (carro_pkg) StdoutLine: {'line': b'Copying ../build/carro_pkg/carro_pkg.egg-info to /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info\n'}
+[3.303548] (carro_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.307851] (-) TimerEvent: {}
+[3.408087] (-) TimerEvent: {}
+[3.416618] (carro_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/mara/demo_ws/src/build/carro_pkg/install.log'\n"}
+[3.456849] (carro_pkg) CommandEnded: {'returncode': 0}
+[3.470547] (carro_pkg) JobEnded: {'identifier': 'carro_pkg', 'rc': 0}
+[3.471251] (-) EventReactorShutdown: {}

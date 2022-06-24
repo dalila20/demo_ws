@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/mara/demo_ws/build/carro-pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/carro-pkg -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/install/carro-pkg
+[0.026s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.428s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.429s]   By not providing "Findament.cmake" in CMAKE_MODULE_PATH this project has
+[0.429s]   asked CMake to find a package configuration file provided by "ament", but
+[0.429s]   CMake did not find one.
+[0.429s] 
+[0.429s]   Could not find a package configuration file provided by "ament" with any of
+[0.429s]   the following names:
+[0.429s] 
+[0.429s]     amentConfig.cmake
+[0.429s]     ament-config.cmake
+[0.429s] 
+[0.430s]   Add the installation prefix of "ament" to CMAKE_PREFIX_PATH or set
+[0.430s]   "ament_DIR" to a directory containing one of the above files.  If "ament"
+[0.430s]   provides a separate development package or SDK, be sure it has been
+[0.430s]   installed.
+[0.430s] 
+[0.430s] 
+[0.430s] -- Configuring incomplete, errors occurred!
+[0.430s] See also "/home/mara/demo_ws/build/carro-pkg/CMakeFiles/CMakeOutput.log".
+[0.431s] Invoked command in '/home/mara/demo_ws/build/carro-pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/carro-pkg -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/install/carro-pkg
