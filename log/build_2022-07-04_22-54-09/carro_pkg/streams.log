@@ -1,0 +1,9 @@
+[0.757s] Invoking command in '/home/mara/demo_ws/build/carro_pkg': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/mara/demo_ws/install/carro_pkg --editable --build-directory /home/mara/demo_ws/build/carro_pkg/build --no-deps install_data --install-dir /home/mara/demo_ws/install/carro_pkg
+[1.052s] running develop
+[1.238s] running egg_info
+[1.243s] writing manifest file 'carro_pkg.egg-info/SOURCES.txt'
+[1.281s] running build_ext
+[1.282s] running install_data
+[1.283s] copying launch/display.launch.py -> /home/mara/demo_ws/install/carro_pkg/share/carro_pkg
+[1.283s] copying urdf/carro.urdf -> /home/mara/demo_ws/install/carro_pkg/share/carro_pkg
+[1.311s] Invoked command in '/home/mara/demo_ws/build/carro_pkg' returned '0': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/mara/demo_ws/install/carro_pkg --editable --build-directory /home/mara/demo_ws/build/carro_pkg/build --no-deps install_data --install-dir /home/mara/demo_ws/install/carro_pkg

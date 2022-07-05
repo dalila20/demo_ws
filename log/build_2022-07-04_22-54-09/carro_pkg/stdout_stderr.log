@@ -1,0 +1,7 @@
+running develop
+running egg_info
+writing manifest file 'carro_pkg.egg-info/SOURCES.txt'
+running build_ext
+running install_data
+copying launch/display.launch.py -> /home/mara/demo_ws/install/carro_pkg/share/carro_pkg
+copying urdf/carro.urdf -> /home/mara/demo_ws/install/carro_pkg/share/carro_pkg

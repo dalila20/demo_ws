@@ -9,7 +9,6 @@ setup.py
 ../../build/carro_pkg/carro_pkg.egg-info/top_level.txt
 ../../build/carro_pkg/carro_pkg.egg-info/zip-safe
 carro_pkg/__init__.py
+launch/rviz.launch.py
 resource/carro_pkg
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+urdf/carro.urdf
