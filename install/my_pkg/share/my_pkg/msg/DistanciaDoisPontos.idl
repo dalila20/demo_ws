@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_pkg/msg/DistanciaDoisPontos.msg
+// generated code does not contain a copyright notice
+
+
+module my_pkg {
+  module msg {
+    struct DistanciaDoisPontos {
+      double distanciax;
+
+      double distanciay;
+    };
+  };
+};

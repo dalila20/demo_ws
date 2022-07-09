@@ -2,6 +2,11 @@
 /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg/__pycache__/__init__.cpython-38.pyc
 /home/mara/demo_ws/src/install/carro_pkg/share/ament_index/resource_index/packages/carro_pkg
 /home/mara/demo_ws/src/install/carro_pkg/share/carro_pkg/package.xml
+/home/mara/demo_ws/src/install/carro_pkg/share/carro_pkg/rviz.launch.py
+/home/mara/demo_ws/src/install/carro_pkg/share/carro_pkg/gazebo.launch.py
+/home/mara/demo_ws/src/install/carro_pkg/share/carro_pkg/gazebo_display.launch.py
+/home/mara/demo_ws/src/install/carro_pkg/share/carro_pkg/carro.urdf
+/home/mara/demo_ws/src/install/carro_pkg/share/carro_pkg/teste.launch.xml
 /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info/entry_points.txt
 /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info/PKG-INFO
 /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info/SOURCES.txt
@@ -9,3 +14,4 @@
 /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info/zip-safe
 /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info/requires.txt
 /home/mara/demo_ws/src/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info/top_level.txt
+/home/mara/demo_ws/src/install/carro_pkg/lib/carro_pkg/state_publisher

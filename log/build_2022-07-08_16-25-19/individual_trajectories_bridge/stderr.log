@@ -1,0 +1,19 @@
+CMake Error at CMakeLists.txt:27 (find_package):
+  By not providing "Findhrim_actuator_rotaryservo_actions.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "hrim_actuator_rotaryservo_actions", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "hrim_actuator_rotaryservo_actions" with any of the following names:
+
+    hrim_actuator_rotaryservo_actionsConfig.cmake
+    hrim_actuator_rotaryservo_actions-config.cmake
+
+  Add the installation prefix of "hrim_actuator_rotaryservo_actions" to
+  CMAKE_PREFIX_PATH or set "hrim_actuator_rotaryservo_actions_DIR" to a
+  directory containing one of the above files.  If
+  "hrim_actuator_rotaryservo_actions" provides a separate development package
+  or SDK, be sure it has been installed.
+
+

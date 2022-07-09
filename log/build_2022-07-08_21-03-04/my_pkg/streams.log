@@ -1,0 +1,16 @@
+[1.054s] Invoking command in '/home/mara/demo_ws/src/my_pkg': PYTHONPATH=/home/mara/demo_ws/install/my_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/mara/demo_ws/build/my_pkg/build install --prefix /home/mara/demo_ws/install/my_pkg --record /home/mara/demo_ws/build/my_pkg/install.log --single-version-externally-managed
+[1.344s] running egg_info
+[1.349s] writing manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[1.349s] running build
+[1.349s] running build_py
+[1.349s] running install
+[1.350s] running install_lib
+[1.351s] running install_data
+[1.352s] copying msg/DistanciaDoisPontos.msg -> /home/mara/demo_ws/install/my_pkg/share/my_pkg
+[1.352s] copying srv/DistanciaEuclidiana.srv -> /home/mara/demo_ws/install/my_pkg/share/my_pkg
+[1.353s] running install_egg_info
+[1.354s] removing '/home/mara/demo_ws/install/my_pkg/lib/python3.8/site-packages/my_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.354s] Copying ../../build/my_pkg/my_pkg.egg-info to /home/mara/demo_ws/install/my_pkg/lib/python3.8/site-packages/my_pkg-0.0.0-py3.8.egg-info
+[1.355s] running install_scripts
+[1.375s] writing list of installed files to '/home/mara/demo_ws/build/my_pkg/install.log'
+[1.398s] Invoked command in '/home/mara/demo_ws/src/my_pkg' returned '0': PYTHONPATH=/home/mara/demo_ws/install/my_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/mara/demo_ws/build/my_pkg/build install --prefix /home/mara/demo_ws/install/my_pkg --record /home/mara/demo_ws/build/my_pkg/install.log --single-version-externally-managed

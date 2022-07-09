@@ -1,0 +1,17 @@
+[1.159s] Invoking command in '/home/mara/demo_ws/build/carro_pkg': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/mara/demo_ws/install/carro_pkg --uninstall --editable --build-directory /home/mara/demo_ws/build/carro_pkg/build
+[1.778s] running develop
+[2.019s] Invoked command in '/home/mara/demo_ws/build/carro_pkg' returned '0': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/mara/demo_ws/install/carro_pkg --uninstall --editable --build-directory /home/mara/demo_ws/build/carro_pkg/build
+[2.023s] Invoking command in '/home/mara/demo_ws/src/carro_pkg': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/carro_pkg build --build-base /home/mara/demo_ws/build/carro_pkg/build install --prefix /home/mara/demo_ws/install/carro_pkg --record /home/mara/demo_ws/build/carro_pkg/install.log --single-version-externally-managed
+[2.416s] running egg_info
+[2.421s] writing manifest file '../../build/carro_pkg/carro_pkg.egg-info/SOURCES.txt'
+[2.421s] running build
+[2.421s] running build_py
+[2.421s] running install
+[2.422s] running install_lib
+[2.423s] running install_data
+[2.424s] running install_egg_info
+[2.426s] removing '/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.426s] Copying ../../build/carro_pkg/carro_pkg.egg-info to /home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info
+[2.427s] running install_scripts
+[2.447s] writing list of installed files to '/home/mara/demo_ws/build/carro_pkg/install.log'
+[2.517s] Invoked command in '/home/mara/demo_ws/src/carro_pkg' returned '0': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/carro_pkg build --build-base /home/mara/demo_ws/build/carro_pkg/build install --prefix /home/mara/demo_ws/install/carro_pkg --record /home/mara/demo_ws/build/carro_pkg/install.log --single-version-externally-managed

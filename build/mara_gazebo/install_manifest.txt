@@ -1,0 +1,17 @@
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/launch/mara.launch.py
+/home/mara/demo_ws/install/mara_gazebo/share/ament_index/resource_index/package_run_dependencies/mara_gazebo
+/home/mara/demo_ws/install/mara_gazebo/share/ament_index/resource_index/parent_prefix_path/mara_gazebo
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/environment/ament_prefix_path.sh
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/environment/ament_prefix_path.dsv
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/environment/path.sh
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/environment/path.dsv
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/local_setup.bash
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/local_setup.sh
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/local_setup.zsh
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/local_setup.dsv
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/package.dsv
+/home/mara/demo_ws/install/mara_gazebo/share/ament_index/resource_index/packages/mara_gazebo
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/cmake/mara_gazeboConfig.cmake
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/cmake/mara_gazeboConfig-version.cmake
+/home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/package.xml

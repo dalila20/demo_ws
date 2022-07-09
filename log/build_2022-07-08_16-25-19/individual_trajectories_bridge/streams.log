@@ -1,0 +1,63 @@
+[0.327s] Invoking command in '/home/mara/demo_ws/build/individual_trajectories_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/MARA/individual_trajectories_bridge -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/install/individual_trajectories_bridge
+[0.402s] -- The C compiler identification is GNU 9.4.0
+[0.491s] -- The CXX compiler identification is GNU 9.4.0
+[0.500s] -- Check for working C compiler: /usr/bin/cc
+[0.618s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.619s] -- Detecting C compiler ABI info
+[0.727s] -- Detecting C compiler ABI info - done
+[0.748s] -- Detecting C compile features
+[0.749s] -- Detecting C compile features - done
+[0.752s] -- Check for working CXX compiler: /usr/bin/c++
+[0.876s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.877s] -- Detecting CXX compiler ABI info
+[1.006s] -- Detecting CXX compiler ABI info - done
+[1.027s] -- Detecting CXX compile features
+[1.028s] -- Detecting CXX compile features - done
+[1.031s] -- Found rmw: 1.0.3 (/opt/ros/foxy/share/rmw/cmake)
+[1.078s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.080s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.543s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.596s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.715s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.765s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.856s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.935s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.938s] -- Looking for pthread.h
+[2.029s] -- Looking for pthread.h - found
+[2.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.133s] -- Looking for pthread_create in pthreads
+[2.209s] -- Looking for pthread_create in pthreads - not found
+[2.209s] -- Looking for pthread_create in pthread
+[2.282s] -- Looking for pthread_create in pthread - found
+[2.283s] -- Found Threads: TRUE  
+[2.503s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.628s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[2.996s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.067s] -- Found yaml_cpp_vendor: 7.0.2 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[3.067s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.074s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.58")  
+[3.083s] CMake Error at CMakeLists.txt:27 (find_package):
+[3.084s]   By not providing "Findhrim_actuator_rotaryservo_actions.cmake" in
+[3.084s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[3.084s]   configuration file provided by "hrim_actuator_rotaryservo_actions", but
+[3.084s]   CMake did not find one.
+[3.084s] 
+[3.084s]   Could not find a package configuration file provided by
+[3.084s]   "hrim_actuator_rotaryservo_actions" with any of the following names:
+[3.084s] 
+[3.084s]     hrim_actuator_rotaryservo_actionsConfig.cmake
+[3.084s]     hrim_actuator_rotaryservo_actions-config.cmake
+[3.084s] 
+[3.084s]   Add the installation prefix of "hrim_actuator_rotaryservo_actions" to
+[3.084s]   CMAKE_PREFIX_PATH or set "hrim_actuator_rotaryservo_actions_DIR" to a
+[3.084s]   directory containing one of the above files.  If
+[3.084s]   "hrim_actuator_rotaryservo_actions" provides a separate development package
+[3.084s]   or SDK, be sure it has been installed.
+[3.084s] 
+[3.084s] 
+[3.085s] -- Configuring incomplete, errors occurred!
+[3.085s] See also "/home/mara/demo_ws/build/individual_trajectories_bridge/CMakeFiles/CMakeOutput.log".
+[3.085s] See also "/home/mara/demo_ws/build/individual_trajectories_bridge/CMakeFiles/CMakeError.log".

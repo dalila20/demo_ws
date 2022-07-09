@@ -1,3 +1,3 @@
 [console_scripts]
-
+state_publisher = carro_pkg.state_publisher:main
 

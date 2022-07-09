@@ -1,0 +1,46 @@
+[0.320s] Invoking command in '/home/mara/demo_ws/build/mara_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/MARA/mara_gazebo -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/install/mara_gazebo
+[0.402s] -- The C compiler identification is GNU 9.4.0
+[0.498s] -- The CXX compiler identification is GNU 9.4.0
+[0.498s] -- Check for working C compiler: /usr/bin/cc
+[0.597s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.599s] -- Detecting C compiler ABI info
+[0.705s] -- Detecting C compiler ABI info - done
+[0.718s] -- Detecting C compile features
+[0.718s] -- Detecting C compile features - done
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++
+[0.832s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.834s] -- Detecting CXX compiler ABI info
+[0.957s] -- Detecting CXX compiler ABI info - done
+[0.977s] -- Detecting CXX compile features
+[0.978s] -- Detecting CXX compile features - done
+[0.981s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.027s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.027s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.459s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[1.682s] -- Configuring done
+[1.685s] -- Generating done
+[1.687s] -- Build files have been written to: /home/mara/demo_ws/build/mara_gazebo
+[1.702s] Invoked command in '/home/mara/demo_ws/build/mara_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/MARA/mara_gazebo -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/install/mara_gazebo
+[1.703s] Invoking command in '/home/mara/demo_ws/build/mara_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/mara/demo_ws/build/mara_gazebo -- -j8 -l8
+[1.981s] Invoked command in '/home/mara/demo_ws/build/mara_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/mara/demo_ws/build/mara_gazebo -- -j8 -l8
+[2.047s] Invoking command in '/home/mara/demo_ws/build/mara_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/mara/demo_ws/build/mara_gazebo
+[2.445s] -- Install configuration: ""
+[2.446s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/launch
+[2.446s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/launch/mara.launch.py
+[2.447s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/ament_index/resource_index/package_run_dependencies/mara_gazebo
+[2.447s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/ament_index/resource_index/parent_prefix_path/mara_gazebo
+[2.447s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/environment/ament_prefix_path.sh
+[2.448s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/environment/ament_prefix_path.dsv
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/environment/path.sh
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/environment/path.dsv
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/local_setup.bash
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/local_setup.sh
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/local_setup.zsh
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/local_setup.dsv
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/package.dsv
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/ament_index/resource_index/packages/mara_gazebo
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.449s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/cmake/mara_gazeboConfig.cmake
+[2.450s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/cmake/mara_gazeboConfig-version.cmake
+[2.450s] -- Installing: /home/mara/demo_ws/install/mara_gazebo/share/mara_gazebo/package.xml
+[2.458s] Invoked command in '/home/mara/demo_ws/build/mara_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/mara/demo_ws/build/mara_gazebo

@@ -1,0 +1,18 @@
+[0.701s] Invoking command in '/home/mara/demo_ws/build/carro_pkg': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/mara/demo_ws/install/carro_pkg --uninstall --editable --build-directory /home/mara/demo_ws/build/carro_pkg/build
+[0.979s] running develop
+[1.177s] Invoked command in '/home/mara/demo_ws/build/carro_pkg' returned '0': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/mara/demo_ws/install/carro_pkg --uninstall --editable --build-directory /home/mara/demo_ws/build/carro_pkg/build
+[1.178s] Invoking command in '/home/mara/demo_ws/src/carro_pkg': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/carro_pkg build --build-base /home/mara/demo_ws/build/carro_pkg/build install --prefix /home/mara/demo_ws/install/carro_pkg --record /home/mara/demo_ws/build/carro_pkg/install.log --single-version-externally-managed
+[1.436s] running egg_info
+[1.441s] writing manifest file '../../build/carro_pkg/carro_pkg.egg-info/SOURCES.txt'
+[1.441s] running build
+[1.441s] running build_py
+[1.441s] running install
+[1.442s] running install_lib
+[1.443s] running install_data
+[1.443s] copying launch/teste.launch.xml -> /home/mara/demo_ws/install/carro_pkg/share/carro_pkg
+[1.444s] running install_egg_info
+[1.445s] removing '/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.445s] Copying ../../build/carro_pkg/carro_pkg.egg-info to /home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info
+[1.446s] running install_scripts
+[1.462s] writing list of installed files to '/home/mara/demo_ws/build/carro_pkg/install.log'
+[1.480s] Invoked command in '/home/mara/demo_ws/src/carro_pkg' returned '0': PYTHONPATH=/home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/carro_pkg build --build-base /home/mara/demo_ws/build/carro_pkg/build install --prefix /home/mara/demo_ws/install/carro_pkg --record /home/mara/demo_ws/build/carro_pkg/install.log --single-version-externally-managed

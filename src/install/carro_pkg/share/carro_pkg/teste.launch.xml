@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+  <!-- constants -->
+
+  <arg name="model" default="~/demo_ws/src/carro_pkg/urdf/carro.urdf"/>
+
+  <!-- include the world -->
+
+  <include file="/opt/ros/foxy/share/gazebo_ros/launch/empty_world.launch">
+    <arg name="world_name" value="~/demo_ws/src/carro_pkg/worlds/empty_world.sdf"/>
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+  </include>
+
+  <!-- spawn the model -->
+
+  <node pkg="gazebo_ros" exec="spawn_model" name="urdf_spawner"
+        args="-z 1.0 -unpause -urdf -model robot -param $(find xacro)/xacro $(arg model)" respawn="false" output="screen"/> 
+        
+  <!-- load the controllers -->
+
+  <rosparam file="~/demo_ws/src/carro_pkg/config/carro_control.yaml" command="load"/>
+
+  <node pkg="controller_manager" exec="spawner" name="controller_spawner" respawn="false"
+    output="screen" namespace="/carro" args="joint_state_controller"/>
+
+
+  <node pkg="robot_state_publisher" exec="robot_state_publisher" name="robot_state_publisher"
+    respawn="false" output="screen">
+    <remap from="/joint_states" to="/carro/joint_states" />
+  </node>
+
+</launch>

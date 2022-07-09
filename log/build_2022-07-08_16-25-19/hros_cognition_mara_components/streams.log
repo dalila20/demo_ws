@@ -1,0 +1,57 @@
+[0.330s] Invoking command in '/home/mara/demo_ws/build/hros_cognition_mara_components': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/MARA/hros_cognition_mara_components -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/install/hros_cognition_mara_components
+[0.404s] -- The C compiler identification is GNU 9.4.0
+[0.507s] -- The CXX compiler identification is GNU 9.4.0
+[0.508s] -- Check for working C compiler: /usr/bin/cc
+[0.602s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.604s] -- Detecting C compiler ABI info
+[0.704s] -- Detecting C compiler ABI info - done
+[0.725s] -- Detecting C compile features
+[0.725s] -- Detecting C compile features - done
+[0.728s] -- Check for working CXX compiler: /usr/bin/c++
+[0.856s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.859s] -- Detecting CXX compiler ABI info
+[0.976s] -- Detecting CXX compiler ABI info - done
+[0.998s] -- Detecting CXX compile features
+[1.000s] -- Detecting CXX compile features - done
+[1.003s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.048s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.479s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.564s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.675s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.730s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.901s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.902s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.903s] -- Looking for pthread.h
+[1.968s] -- Looking for pthread.h - found
+[1.968s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.080s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.080s] -- Looking for pthread_create in pthreads
+[2.148s] -- Looking for pthread_create in pthreads - not found
+[2.148s] -- Looking for pthread_create in pthread
+[2.224s] -- Looking for pthread_create in pthread - found
+[2.227s] -- Found Threads: TRUE  
+[2.423s] -- Found rttest: 0.9.0 (/opt/ros/foxy/share/rttest/cmake)
+[2.441s] CMake Error at CMakeLists.txt:16 (find_package):
+[2.441s]   By not providing "Findhrim_generic_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.441s]   project has asked CMake to find a package configuration file provided by
+[2.441s]   "hrim_generic_msgs", but CMake did not find one.
+[2.441s] 
+[2.441s]   Could not find a package configuration file provided by "hrim_generic_msgs"
+[2.441s]   with any of the following names:
+[2.442s] 
+[2.442s]     hrim_generic_msgsConfig.cmake
+[2.442s]     hrim_generic_msgs-config.cmake
+[2.442s] 
+[2.442s]   Add the installation prefix of "hrim_generic_msgs" to CMAKE_PREFIX_PATH or
+[2.442s]   set "hrim_generic_msgs_DIR" to a directory containing one of the above
+[2.442s]   files.  If "hrim_generic_msgs" provides a separate development package or
+[2.442s]   SDK, be sure it has been installed.
+[2.443s] 
+[2.443s] 
+[2.443s] -- Configuring incomplete, errors occurred!
+[2.443s] See also "/home/mara/demo_ws/build/hros_cognition_mara_components/CMakeFiles/CMakeOutput.log".
+[2.443s] See also "/home/mara/demo_ws/build/hros_cognition_mara_components/CMakeFiles/CMakeError.log".
+[2.469s] Invoked command in '/home/mara/demo_ws/build/hros_cognition_mara_components' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/MARA/hros_cognition_mara_components -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/install/hros_cognition_mara_components

@@ -1,0 +1,30 @@
+[1.097s] Invoking command in '/home/mara/demo_ws/src/exec_pkg': PYTHONPATH=/home/mara/demo_ws/install/exec_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exec_pkg build --build-base /home/mara/demo_ws/build/exec_pkg/build install --prefix /home/mara/demo_ws/install/exec_pkg --record /home/mara/demo_ws/build/exec_pkg/install.log --single-version-externally-managed
+[1.376s] /home/mara/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.376s]   warnings.warn(
+[1.377s] /home/mara/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.377s]   warnings.warn(
+[1.418s] running egg_info
+[1.419s] creating ../../build/exec_pkg/exec_pkg.egg-info
+[1.421s] writing manifest file '../../build/exec_pkg/exec_pkg.egg-info/SOURCES.txt'
+[1.424s] writing manifest file '../../build/exec_pkg/exec_pkg.egg-info/SOURCES.txt'
+[1.424s] running build
+[1.424s] running build_py
+[1.424s] creating /home/mara/demo_ws/build/exec_pkg/build
+[1.424s] creating /home/mara/demo_ws/build/exec_pkg/build/lib
+[1.424s] creating /home/mara/demo_ws/build/exec_pkg/build/lib/exec_pkg
+[1.424s] copying exec_pkg/__init__.py -> /home/mara/demo_ws/build/exec_pkg/build/lib/exec_pkg
+[1.424s] running install
+[1.425s] running install_lib
+[1.425s] creating /home/mara/demo_ws/install/exec_pkg/lib/python3.8/site-packages/exec_pkg
+[1.426s] byte-compiling /home/mara/demo_ws/install/exec_pkg/lib/python3.8/site-packages/exec_pkg/__init__.py to __init__.cpython-38.pyc
+[1.426s] running install_data
+[1.427s] creating /home/mara/demo_ws/install/exec_pkg/share/ament_index
+[1.427s] creating /home/mara/demo_ws/install/exec_pkg/share/ament_index/resource_index
+[1.427s] creating /home/mara/demo_ws/install/exec_pkg/share/ament_index/resource_index/packages
+[1.427s] copying resource/exec_pkg -> /home/mara/demo_ws/install/exec_pkg/share/ament_index/resource_index/packages
+[1.427s] copying package.xml -> /home/mara/demo_ws/install/exec_pkg/share/exec_pkg
+[1.427s] running install_egg_info
+[1.428s] Copying ../../build/exec_pkg/exec_pkg.egg-info to /home/mara/demo_ws/install/exec_pkg/lib/python3.8/site-packages/exec_pkg-0.0.0-py3.8.egg-info
+[1.429s] running install_scripts
+[1.446s] writing list of installed files to '/home/mara/demo_ws/build/exec_pkg/install.log'
+[1.469s] Invoked command in '/home/mara/demo_ws/src/exec_pkg' returned '0': PYTHONPATH=/home/mara/demo_ws/install/exec_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exec_pkg build --build-base /home/mara/demo_ws/build/exec_pkg/build install --prefix /home/mara/demo_ws/install/exec_pkg --record /home/mara/demo_ws/build/exec_pkg/install.log --single-version-externally-managed

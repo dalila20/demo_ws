@@ -1,0 +1,125 @@
+[0.382s] Invoking command in '/home/mara/demo_ws/src/build/mara_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/MARA/mara_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/src/install/mara_gazebo_plugins
+[10.949s] -- The C compiler identification is GNU 9.4.0
+[10.949s] -- The CXX compiler identification is GNU 9.4.0
+[10.949s] -- Check for working C compiler: /usr/bin/cc
+[10.949s] -- Check for working C compiler: /usr/bin/cc -- works
+[10.949s] -- Detecting C compiler ABI info
+[10.950s] -- Detecting C compiler ABI info - done
+[10.951s] -- Detecting C compile features
+[10.951s] -- Detecting C compile features - done
+[10.953s] -- Check for working CXX compiler: /usr/bin/c++
+[10.954s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[10.954s] -- Detecting CXX compiler ABI info
+[10.954s] -- Detecting CXX compiler ABI info - done
+[10.954s] -- Detecting CXX compile features
+[10.954s] -- Detecting CXX compile features - done
+[10.954s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[10.955s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[10.957s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.957s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[10.957s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[10.957s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[10.958s] -- Checking for module 'bullet>=2.82'
+[10.958s] --   Found bullet, version 2.88
+[10.963s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[11.114s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[11.197s] -- Found assimp: /usr/include (found version "5.0.0") 
+[11.473s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[12.210s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[12.426s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[12.560s] -- Looking for ignition-math6 -- found version 6.11.0
+[12.647s] -- Searching for dependencies of ignition-math6
+[12.658s] -- Looking for OGRE...
+[12.661s] -- OGRE_PREFIX_WATCH changed.
+[12.684s] -- Checking for module 'OGRE'
+[12.718s] --   Found OGRE, version 1.9.0
+[12.815s] -- Found Ogre Ghadamon (1.9.0)
+[12.836s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[12.850s] -- Looking for OGRE_Paging...
+[12.862s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[12.862s] -- Looking for OGRE_Terrain...
+[12.870s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[12.871s] -- Looking for OGRE_Property...
+[12.877s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[12.877s] -- Looking for OGRE_RTShaderSystem...
+[12.884s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[12.884s] -- Looking for OGRE_Volume...
+[12.893s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[12.893s] -- Looking for OGRE_Overlay...
+[12.906s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[13.081s] -- Looking for ignition-math6 -- found version 6.11.0
+[13.141s] -- Looking for ignition-transport8 -- found version 8.2.1
+[13.141s] -- Searching for dependencies of ignition-transport8
+[13.258s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[13.303s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[13.313s] -- Checking for module 'libzmq >= 4'
+[13.478s] --   Found libzmq , version 4.3.2
+[13.603s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[13.638s] -- Checking for module 'uuid'
+[13.700s] --   Found uuid, version 2.34.0
+[13.832s] -- Found UUID: TRUE  
+[14.064s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[14.066s] -- Searching for dependencies of ignition-msgs5
+[14.145s] -- Looking for ignition-math6 -- found version 6.11.0
+[14.167s] -- Checking for module 'tinyxml2'
+[14.217s] --   Found tinyxml2, version 6.2.0
+[14.276s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[14.331s] -- Looking for ignition-common3 -- found version 3.14.0
+[14.331s] -- Searching for dependencies of ignition-common3
+[14.332s] -- Looking for dlfcn.h - found
+[14.333s] -- Looking for libdl - found
+[14.334s] -- Found DL: TRUE  
+[14.343s] -- Searching for <ignition-common3> component [graphics]
+[14.373s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[14.374s] -- Searching for dependencies of ignition-common3-graphics
+[14.374s] -- Looking for ignition-math6 -- found version 6.11.0
+[14.382s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[14.383s] -- Searching for dependencies of ignition-fuel_tools4
+[14.484s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[14.539s] -- Checking for module 'jsoncpp'
+[14.567s] --   Found jsoncpp, version 1.7.4
+[14.601s] -- Found JSONCPP: TRUE  
+[14.628s] -- Checking for module 'libzip'
+[14.651s] --   Found libzip, version 1.5.1
+[14.690s] -- Found ZIP: TRUE  
+[14.691s] -- Looking for ignition-common3 -- found version 3.14.0
+[14.691s] -- Looking for ignition-math6 -- found version 6.11.0
+[14.692s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[14.693s] -- Gazebo version: 11.11
+[14.728s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[14.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.808s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[14.882s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[14.907s] -- Found FastRTPS: /opt/ros/foxy/include  
+[14.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.033s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[15.035s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.036s] -- Found Threads: TRUE  
+[15.188s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[15.260s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[15.398s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[15.441s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[15.516s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[15.540s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[16.842s] CMake Error at CMakeLists.txt:25 (find_package):
+[16.843s]   By not providing "Findhrim_actuator_rotaryservo_msgs.cmake" in
+[16.843s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[16.843s]   configuration file provided by "hrim_actuator_rotaryservo_msgs", but CMake
+[16.843s]   did not find one.
+[16.843s] 
+[16.843s]   Could not find a package configuration file provided by
+[16.843s]   "hrim_actuator_rotaryservo_msgs" with any of the following names:
+[16.843s] 
+[16.843s]     hrim_actuator_rotaryservo_msgsConfig.cmake
+[16.843s]     hrim_actuator_rotaryservo_msgs-config.cmake
+[16.843s] 
+[16.843s]   Add the installation prefix of "hrim_actuator_rotaryservo_msgs" to
+[16.843s]   CMAKE_PREFIX_PATH or set "hrim_actuator_rotaryservo_msgs_DIR" to a
+[16.843s]   directory containing one of the above files.  If
+[16.843s]   "hrim_actuator_rotaryservo_msgs" provides a separate development package or
+[16.843s]   SDK, be sure it has been installed.
+[16.843s] 
+[16.843s] 
+[16.844s] -- Configuring incomplete, errors occurred!
+[16.844s] See also "/home/mara/demo_ws/src/build/mara_gazebo_plugins/CMakeFiles/CMakeOutput.log".
+[16.845s] See also "/home/mara/demo_ws/src/build/mara_gazebo_plugins/CMakeFiles/CMakeError.log".

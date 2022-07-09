@@ -3,7 +3,10 @@
 /home/mara/demo_ws/install/carro_pkg/share/ament_index/resource_index/packages/carro_pkg
 /home/mara/demo_ws/install/carro_pkg/share/carro_pkg/package.xml
 /home/mara/demo_ws/install/carro_pkg/share/carro_pkg/rviz.launch.py
+/home/mara/demo_ws/install/carro_pkg/share/carro_pkg/gazebo.launch.py
+/home/mara/demo_ws/install/carro_pkg/share/carro_pkg/gazebo_display.launch.py
 /home/mara/demo_ws/install/carro_pkg/share/carro_pkg/carro.urdf
+/home/mara/demo_ws/install/carro_pkg/share/carro_pkg/teste.launch.xml
 /home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info/entry_points.txt
 /home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info/PKG-INFO
 /home/mara/demo_ws/install/carro_pkg/lib/python3.8/site-packages/carro_pkg-0.0.0-py3.8.egg-info/SOURCES.txt

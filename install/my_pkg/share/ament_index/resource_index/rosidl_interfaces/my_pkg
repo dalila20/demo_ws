@@ -1,0 +1,6 @@
+msg/DistanciaDoisPontos.idl
+msg/DistanciaDoisPontos.msg
+srv/DistanciaEuclidiana.idl
+srv/DistanciaEuclidiana.srv
+srv/DistanciaEuclidiana_Request.msg
+srv/DistanciaEuclidiana_Response.msg
