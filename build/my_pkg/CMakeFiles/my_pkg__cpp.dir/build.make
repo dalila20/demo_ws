@@ -57,10 +57,6 @@ CMakeFiles/my_pkg__cpp: rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hp
 CMakeFiles/my_pkg__cpp: rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__builder.hpp
 CMakeFiles/my_pkg__cpp: rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__struct.hpp
 CMakeFiles/my_pkg__cpp: rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__traits.hpp
-CMakeFiles/my_pkg__cpp: rosidl_generator_cpp/my_pkg/srv/distancia_euclidiana.hpp
-CMakeFiles/my_pkg__cpp: rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__builder.hpp
-CMakeFiles/my_pkg__cpp: rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__struct.hpp
-CMakeFiles/my_pkg__cpp: rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__traits.hpp
 
 
 rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -79,7 +75,6 @@ rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp: /opt/ros/foxy/share/r
 rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp: rosidl_adapter/my_pkg/msg/DistanciaDoisPontos.idl
-rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp: rosidl_adapter/my_pkg/srv/DistanciaEuclidiana.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mara/demo_ws/build/my_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp__arguments.json
 
@@ -92,27 +87,11 @@ rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__struct.hpp: rosidl
 rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__traits.hpp: rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__traits.hpp
 
-rosidl_generator_cpp/my_pkg/srv/distancia_euclidiana.hpp: rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_pkg/srv/distancia_euclidiana.hpp
-
-rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__builder.hpp: rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__builder.hpp
-
-rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__struct.hpp: rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__struct.hpp
-
-rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__traits.hpp: rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__traits.hpp
-
 my_pkg__cpp: CMakeFiles/my_pkg__cpp
 my_pkg__cpp: rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp
 my_pkg__cpp: rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__builder.hpp
 my_pkg__cpp: rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__struct.hpp
 my_pkg__cpp: rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__traits.hpp
-my_pkg__cpp: rosidl_generator_cpp/my_pkg/srv/distancia_euclidiana.hpp
-my_pkg__cpp: rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__builder.hpp
-my_pkg__cpp: rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__struct.hpp
-my_pkg__cpp: rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__traits.hpp
 my_pkg__cpp: CMakeFiles/my_pkg__cpp.dir/build.make
 
 .PHONY : my_pkg__cpp

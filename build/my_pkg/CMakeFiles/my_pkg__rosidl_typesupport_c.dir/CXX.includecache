@@ -26,37 +26,7 @@ rosidl_typesupport_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/msg/rosidl_typesupport_interface/macros.h
 
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/distancia_euclidiana__type_support.cpp
-cstddef
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/cstddef
-rosidl_runtime_c/message_type_support_struct.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/rosidl_runtime_c/message_type_support_struct.h
-my_pkg/msg/rosidl_typesupport_c__visibility_control.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/my_pkg/msg/rosidl_typesupport_c__visibility_control.h
-my_pkg/srv/detail/distancia_euclidiana__struct.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/my_pkg/srv/detail/distancia_euclidiana__struct.h
-rosidl_typesupport_c/identifier.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/rosidl_typesupport_c/identifier.h
-rosidl_typesupport_c/message_type_support_dispatch.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/rosidl_typesupport_c/message_type_support_dispatch.h
-rosidl_typesupport_c/type_support_map.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/rosidl_typesupport_c/type_support_map.h
-rosidl_typesupport_c/visibility_control.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/rosidl_typesupport_c/visibility_control.h
-rosidl_typesupport_interface/macros.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/rosidl_typesupport_interface/macros.h
-rosidl_runtime_c/service_type_support_struct.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/rosidl_runtime_c/service_type_support_struct.h
-rosidl_typesupport_c/service_type_support_dispatch.h
-/home/mara/demo_ws/build/my_pkg/rosidl_typesupport_c/my_pkg/srv/rosidl_typesupport_c/service_type_support_dispatch.h
-
 /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
-rosidl_runtime_c/visibility_control.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
-rosidl_typesupport_interface/macros.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
-
-/opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
 /opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
@@ -74,12 +44,6 @@ rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_c/visibility_control.h
 /opt/ros/foxy/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h
 
-/opt/ros/foxy/include/rosidl_typesupport_c/service_type_support_dispatch.h
-rosidl_runtime_c/service_type_support_struct.h
-/opt/ros/foxy/include/rosidl_typesupport_c/rosidl_runtime_c/service_type_support_struct.h
-rosidl_typesupport_c/visibility_control.h
-/opt/ros/foxy/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h
-
 /opt/ros/foxy/include/rosidl_typesupport_c/type_support_map.h
 cstddef
 -
@@ -89,14 +53,6 @@ cstddef
 /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
 rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__struct.h
-stdbool.h
--
-stddef.h
--
-stdint.h
--
-
-rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__struct.h
 stdbool.h
 -
 stddef.h

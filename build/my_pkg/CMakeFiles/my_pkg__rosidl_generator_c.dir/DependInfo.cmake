@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c" "/home/mara/demo_ws/build/my_pkg/CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.o"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c" "/home/mara/demo_ws/build/my_pkg/CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -28,11 +27,6 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.h" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h"
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__struct.h" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h"
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__type_support.h" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.h" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__struct.h" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__type_support.h" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/srv/distancia_euclidiana.h" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h"
   )
 
 

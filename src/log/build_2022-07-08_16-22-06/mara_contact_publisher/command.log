@@ -1,1 +1,0 @@
-Invoking command in '/home/mara/demo_ws/src/build/mara_contact_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/MARA/mara_contact_publisher -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/src/install/mara_contact_publisher

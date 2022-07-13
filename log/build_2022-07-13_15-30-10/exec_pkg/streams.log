@@ -1,0 +1,14 @@
+[1.090s] Invoking command in '/home/mara/demo_ws/src/exec_pkg': PYTHONPATH=/home/mara/demo_ws/install/exec_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exec_pkg build --build-base /home/mara/demo_ws/build/exec_pkg/build install --prefix /home/mara/demo_ws/install/exec_pkg --record /home/mara/demo_ws/build/exec_pkg/install.log --single-version-externally-managed
+[1.376s] running egg_info
+[1.381s] writing manifest file '../../build/exec_pkg/exec_pkg.egg-info/SOURCES.txt'
+[1.382s] running build
+[1.382s] running build_py
+[1.382s] running install
+[1.382s] running install_lib
+[1.383s] running install_data
+[1.384s] running install_egg_info
+[1.385s] removing '/home/mara/demo_ws/install/exec_pkg/lib/python3.8/site-packages/exec_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.386s] Copying ../../build/exec_pkg/exec_pkg.egg-info to /home/mara/demo_ws/install/exec_pkg/lib/python3.8/site-packages/exec_pkg-0.0.0-py3.8.egg-info
+[1.386s] running install_scripts
+[1.403s] writing list of installed files to '/home/mara/demo_ws/build/exec_pkg/install.log'
+[1.424s] Invoked command in '/home/mara/demo_ws/src/exec_pkg' returned '0': PYTHONPATH=/home/mara/demo_ws/install/exec_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exec_pkg build --build-base /home/mara/demo_ws/build/exec_pkg/build install --prefix /home/mara/demo_ws/install/exec_pkg --record /home/mara/demo_ws/build/exec_pkg/install.log --single-version-externally-managed

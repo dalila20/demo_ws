@@ -1,0 +1,6 @@
+{
+  "package_name": "first_pkg",
+  "non_idl_tuples": [
+    "/home/mara/demo_ws/src/first_pkg:msg/DistanciaDoisPontos.msg"
+  ]
+}

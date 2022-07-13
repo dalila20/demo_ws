@@ -1,8 +1,7 @@
 import rclpy
 from rclpy.node import Node
 import random
-from my_pkg.msg import DistanciaDoisPontos                        
-
+from first_pkg.msg import DistanciaDoisPontos                        
 
 class DisPublisher(Node):
 
@@ -21,13 +20,13 @@ class DisPublisher(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-
     dis_publisher = DisPublisher()
 
-    rclpy.spin(dis_publisher)
-
-    dis_publisher.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.spin(dis_publisher)
+    except KeyboardInterrupt:
+        dis_publisher.destroy_node()
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

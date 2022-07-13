@@ -71,7 +71,6 @@ rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h: /opt/ros/foxy/share/rosid
 rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h: /opt/ros/foxy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h: rosidl_adapter/my_pkg/msg/DistanciaDoisPontos.idl
-rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h: rosidl_adapter/my_pkg/srv/DistanciaEuclidiana.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mara/demo_ws/build/my_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/mara/demo_ws/build/my_pkg/rosidl_generator_c__arguments.json
 
@@ -84,23 +83,8 @@ rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__struct.h: rosidl_gen
 rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__type_support.h: rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__type_support.h
 
-rosidl_generator_c/my_pkg/srv/distancia_euclidiana.h: rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_pkg/srv/distancia_euclidiana.h
-
-rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.h: rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.h
-
-rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__struct.h: rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__struct.h
-
-rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__type_support.h: rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__type_support.h
-
 rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c: rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c
-
-rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c: rosidl_generator_c/my_pkg/msg/distancia_dois_pontos.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c
 
 CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.o: CMakeFiles/my_pkg__rosidl_generator_c.dir/flags.make
 CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.o: rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c
@@ -115,34 +99,19 @@ CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/d
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c -o CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.s
 
-CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o: CMakeFiles/my_pkg__rosidl_generator_c.dir/flags.make
-CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o: rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mara/demo_ws/build/my_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o   -c /home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c
-
-CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c > CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.i
-
-CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c -o CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.s
-
 # Object files for target my_pkg__rosidl_generator_c
 my_pkg__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.o" \
-"CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o"
+"CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.o"
 
 # External object files for target my_pkg__rosidl_generator_c
 my_pkg__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libmy_pkg__rosidl_generator_c.so: CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.o
-libmy_pkg__rosidl_generator_c.so: CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o
 libmy_pkg__rosidl_generator_c.so: CMakeFiles/my_pkg__rosidl_generator_c.dir/build.make
 libmy_pkg__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libmy_pkg__rosidl_generator_c.so: /opt/ros/foxy/lib/librcutils.so
 libmy_pkg__rosidl_generator_c.so: CMakeFiles/my_pkg__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mara/demo_ws/build/my_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libmy_pkg__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mara/demo_ws/build/my_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libmy_pkg__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_pkg__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,12 +127,7 @@ CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/msg/
 CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.h
 CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__struct.h
 CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__type_support.h
-CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/srv/distancia_euclidiana.h
-CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.h
-CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__struct.h
-CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__type_support.h
 CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c
-CMakeFiles/my_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c
 	cd /home/mara/demo_ws/build/my_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mara/demo_ws/src/my_pkg /home/mara/demo_ws/src/my_pkg /home/mara/demo_ws/build/my_pkg /home/mara/demo_ws/build/my_pkg /home/mara/demo_ws/build/my_pkg/CMakeFiles/my_pkg__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_pkg__rosidl_generator_c.dir/depend
 

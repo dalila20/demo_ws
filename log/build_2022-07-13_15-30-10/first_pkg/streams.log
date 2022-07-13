@@ -1,0 +1,113 @@
+[0.599s] Invoking command in '/home/mara/demo_ws/build/first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/exec_pkg:/home/mara/demo_ws/install/carro_pkg:/home/mara/avant_ws/install/turtlebot3_teleop:/home/mara/avant_ws/install/turtlebot3_example:/home/mara/avant_ws/install/exec_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/mara/demo_ws/build/first_pkg -- -j8 -l8
+[0.647s] [  3%] Built target first_pkg__cpp
+[0.648s] [ 12%] Built target first_pkg__rosidl_generator_c
+[0.674s] [ 22%] Built target first_pkg__rosidl_typesupport_fastrtps_cpp
+[0.675s] [ 41%] Built target first_pkg__rosidl_typesupport_introspection_cpp
+[0.676s] [ 38%] Built target first_pkg__rosidl_typesupport_cpp
+[0.676s] [ 51%] Built target first_pkg__rosidl_typesupport_c
+[0.694s] [ 61%] Built target first_pkg__rosidl_typesupport_introspection_c
+[0.698s] [ 70%] Built target first_pkg__rosidl_typesupport_fastrtps_c
+[0.716s] [ 70%] Built target first_pkg
+[0.735s] [ 74%] Built target first_pkg__py
+[0.758s] [ 80%] Built target first_pkg__python
+[0.782s] [ 87%] Built target first_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.786s] [ 93%] Built target first_pkg__rosidl_typesupport_introspection_c__pyext
+[0.787s] [100%] Built target first_pkg__rosidl_typesupport_c__pyext
+[0.797s] Invoked command in '/home/mara/demo_ws/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/exec_pkg:/home/mara/demo_ws/install/carro_pkg:/home/mara/avant_ws/install/turtlebot3_teleop:/home/mara/avant_ws/install/turtlebot3_example:/home/mara/avant_ws/install/exec_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/mara/demo_ws/build/first_pkg -- -j8 -l8
+[0.851s] Invoking command in '/home/mara/demo_ws/build/first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/exec_pkg:/home/mara/demo_ws/install/carro_pkg:/home/mara/avant_ws/install/turtlebot3_teleop:/home/mara/avant_ws/install/turtlebot3_example:/home/mara/avant_ws/install/exec_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/mara/demo_ws/build/first_pkg
+[0.859s] -- Install configuration: ""
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/ament_index/resource_index/rosidl_interfaces/first_pkg
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__type_support.h
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__functions.h
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__struct.h
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__functions.c
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/distancia_dois_pontos.h
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/rosidl_generator_c__visibility_control.h
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/environment/library_path.sh
+[0.860s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/environment/library_path.dsv
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/libfirst_pkg__rosidl_generator_c.so
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__rosidl_typesupport_fastrtps_c.h
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/libfirst_pkg__rosidl_typesupport_fastrtps_c.so
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail
+[0.861s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__rosidl_typesupport_fastrtps_cpp.hpp
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/dds_fastrtps
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/libfirst_pkg__rosidl_typesupport_fastrtps_cpp.so
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__type_support.c
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__rosidl_typesupport_introspection_c.h
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/libfirst_pkg__rosidl_typesupport_introspection_c.so
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/libfirst_pkg__rosidl_typesupport_c.so
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__builder.hpp
+[0.862s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__traits.hpp
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__struct.hpp
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/distancia_dois_pontos.hpp
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__rosidl_typesupport_introspection_cpp.hpp
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/include/first_pkg/msg/detail/distancia_dois_pontos__type_support.cpp
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/libfirst_pkg__rosidl_typesupport_introspection_cpp.so
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/libfirst_pkg__rosidl_typesupport_cpp.so
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/environment/pythonpath.sh
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/environment/pythonpath.dsv
+[0.863s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/python3.8/site-packages/first_pkg/__init__.py
+[0.898s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/python3.8/site-packages/first_pkg/msg
+[0.898s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/python3.8/site-packages/first_pkg/msg/_distancia_dois_pontos_s.c
+[0.898s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/python3.8/site-packages/first_pkg/msg/__init__.py
+[0.898s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/python3.8/site-packages/first_pkg/msg/_distancia_dois_pontos.py
+[0.898s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/python3.8/site-packages/first_pkg/first_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.899s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/python3.8/site-packages/first_pkg/first_pkg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.899s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/python3.8/site-packages/first_pkg/first_pkg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.899s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/lib/libfirst_pkg__python.so
+[0.900s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/msg/DistanciaDoisPontos.idl
+[0.900s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/msg/DistanciaDoisPontos.msg
+[0.900s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/ament_index/resource_index/package_run_dependencies/first_pkg
+[0.900s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/ament_index/resource_index/parent_prefix_path/first_pkg
+[0.900s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/environment/ament_prefix_path.sh
+[0.900s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/environment/ament_prefix_path.dsv
+[0.900s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/environment/path.sh
+[0.900s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/environment/path.dsv
+[0.900s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/local_setup.bash
+[0.901s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/local_setup.sh
+[0.901s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/local_setup.zsh
+[0.901s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/local_setup.dsv
+[0.901s] -- Installing: /home/mara/demo_ws/install/first_pkg/share/first_pkg/package.dsv
+[0.901s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/ament_index/resource_index/packages/first_pkg
+[0.901s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_generator_cExport.cmake
+[0.901s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_generator_cExport-noconfig.cmake
+[0.901s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_typesupport_introspection_cExport.cmake
+[0.901s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.901s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_typesupport_cExport.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_generator_cppExport.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_typesupport_cppExport.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/rosidl_cmake-extras.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkgConfig.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/cmake/first_pkgConfig-version.cmake
+[0.902s] -- Up-to-date: /home/mara/demo_ws/install/first_pkg/share/first_pkg/package.xml
+[0.904s] Invoked command in '/home/mara/demo_ws/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/exec_pkg:/home/mara/demo_ws/install/carro_pkg:/home/mara/avant_ws/install/turtlebot3_teleop:/home/mara/avant_ws/install/turtlebot3_example:/home/mara/avant_ws/install/exec_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/mara/demo_ws/build/first_pkg

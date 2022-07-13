@@ -54,9 +54,6 @@ CMAKE_BINARY_DIR = /home/mara/demo_ws/build/my_pkg
 include CMakeFiles/my_pkg.dir/progress.make
 
 CMakeFiles/my_pkg: /home/mara/demo_ws/src/my_pkg/msg/DistanciaDoisPontos.msg
-CMakeFiles/my_pkg: /home/mara/demo_ws/src/my_pkg/srv/DistanciaEuclidiana.srv
-CMakeFiles/my_pkg: rosidl_cmake/srv/DistanciaEuclidiana_Request.msg
-CMakeFiles/my_pkg: rosidl_cmake/srv/DistanciaEuclidiana_Response.msg
 
 
 my_pkg: CMakeFiles/my_pkg

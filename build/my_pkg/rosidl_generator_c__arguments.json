@@ -3,8 +3,7 @@
   "output_dir": "/home/mara/demo_ws/build/my_pkg/rosidl_generator_c/my_pkg",
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/mara/demo_ws/build/my_pkg/rosidl_adapter/my_pkg:msg/DistanciaDoisPontos.idl",
-    "/home/mara/demo_ws/build/my_pkg/rosidl_adapter/my_pkg:srv/DistanciaEuclidiana.idl"
+    "/home/mara/demo_ws/build/my_pkg/rosidl_adapter/my_pkg:msg/DistanciaDoisPontos.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -20,7 +19,6 @@
     "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/foxy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/mara/demo_ws/build/my_pkg/rosidl_adapter/my_pkg/msg/DistanciaDoisPontos.idl",
-    "/home/mara/demo_ws/build/my_pkg/rosidl_adapter/my_pkg/srv/DistanciaEuclidiana.idl"
+    "/home/mara/demo_ws/build/my_pkg/rosidl_adapter/my_pkg/msg/DistanciaDoisPontos.idl"
   ]
 }

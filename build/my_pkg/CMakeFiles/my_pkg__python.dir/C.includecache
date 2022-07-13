@@ -20,20 +20,6 @@ my_pkg/msg/detail/distancia_dois_pontos__struct.h
 my_pkg/msg/detail/distancia_dois_pontos__functions.h
 /home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/msg/my_pkg/msg/detail/distancia_dois_pontos__functions.h
 
-/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/srv/_distancia_euclidiana_s.c
-Python.h
--
-stdbool.h
--
-numpy/ndarrayobject.h
-/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/srv/numpy/ndarrayobject.h
-rosidl_runtime_c/visibility_control.h
-/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/srv/rosidl_runtime_c/visibility_control.h
-my_pkg/srv/detail/distancia_euclidiana__struct.h
-/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/srv/my_pkg/srv/detail/distancia_euclidiana__struct.h
-my_pkg/srv/detail/distancia_euclidiana__functions.h
-/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/srv/my_pkg/srv/detail/distancia_euclidiana__functions.h
-
 /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
 /usr/include/python3.8/Python.h
@@ -629,24 +615,4 @@ stdint.h
 -
 
 rosidl_generator_c/my_pkg/msg/rosidl_generator_c__visibility_control.h
-
-rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.h
-stdbool.h
--
-stdlib.h
--
-rosidl_runtime_c/visibility_control.h
-rosidl_generator_c/my_pkg/srv/detail/rosidl_runtime_c/visibility_control.h
-my_pkg/msg/rosidl_generator_c__visibility_control.h
-rosidl_generator_c/my_pkg/srv/detail/my_pkg/msg/rosidl_generator_c__visibility_control.h
-my_pkg/srv/detail/distancia_euclidiana__struct.h
-rosidl_generator_c/my_pkg/srv/detail/my_pkg/srv/detail/distancia_euclidiana__struct.h
-
-rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__struct.h
-stdbool.h
--
-stddef.h
--
-stdint.h
--
 

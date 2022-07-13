@@ -57,11 +57,8 @@ my_pkg__py/CMakeFiles/my_pkg__py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl
 my_pkg__py/CMakeFiles/my_pkg__py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_introspection_c.c
 my_pkg__py/CMakeFiles/my_pkg__py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_c.c
 my_pkg__py/CMakeFiles/my_pkg__py: rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos.py
-my_pkg__py/CMakeFiles/my_pkg__py: rosidl_generator_py/my_pkg/srv/_distancia_euclidiana.py
 my_pkg__py/CMakeFiles/my_pkg__py: rosidl_generator_py/my_pkg/msg/__init__.py
-my_pkg__py/CMakeFiles/my_pkg__py: rosidl_generator_py/my_pkg/srv/__init__.py
 my_pkg__py/CMakeFiles/my_pkg__py: rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos_s.c
-my_pkg__py/CMakeFiles/my_pkg__py: rosidl_generator_py/my_pkg/srv/_distancia_euclidiana_s.c
 
 
 rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -78,7 +75,6 @@ rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ro
 rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_pkg/msg/DistanciaDoisPontos.idl
-rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_pkg/srv/DistanciaEuclidiana.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mara/demo_ws/build/my_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/mara/demo_ws/build/my_pkg/my_pkg__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/mara/demo_ws/build/my_pkg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -91,31 +87,19 @@ rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_c.c: rosidl_generator
 rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos.py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos.py
 
-rosidl_generator_py/my_pkg/srv/_distancia_euclidiana.py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_pkg/srv/_distancia_euclidiana.py
-
 rosidl_generator_py/my_pkg/msg/__init__.py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_pkg/msg/__init__.py
 
-rosidl_generator_py/my_pkg/srv/__init__.py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_pkg/srv/__init__.py
-
 rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos_s.c: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos_s.c
-
-rosidl_generator_py/my_pkg/srv/_distancia_euclidiana_s.c: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_pkg/srv/_distancia_euclidiana_s.c
 
 my_pkg__py: my_pkg__py/CMakeFiles/my_pkg__py
 my_pkg__py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 my_pkg__py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_introspection_c.c
 my_pkg__py: rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_c.c
 my_pkg__py: rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos.py
-my_pkg__py: rosidl_generator_py/my_pkg/srv/_distancia_euclidiana.py
 my_pkg__py: rosidl_generator_py/my_pkg/msg/__init__.py
-my_pkg__py: rosidl_generator_py/my_pkg/srv/__init__.py
 my_pkg__py: rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos_s.c
-my_pkg__py: rosidl_generator_py/my_pkg/srv/_distancia_euclidiana_s.c
 my_pkg__py: my_pkg__py/CMakeFiles/my_pkg__py.dir/build.make
 
 .PHONY : my_pkg__py

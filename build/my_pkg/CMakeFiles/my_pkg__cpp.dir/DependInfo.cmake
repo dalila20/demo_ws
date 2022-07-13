@@ -8,10 +8,6 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__builder.hpp" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp"
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__struct.hpp" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp"
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/detail/distancia_dois_pontos__traits.hpp" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__builder.hpp" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__struct.hpp" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/srv/detail/distancia_euclidiana__traits.hpp" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/srv/distancia_euclidiana.hpp" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_cpp/my_pkg/msg/distancia_dois_pontos.hpp"
   )
 
 

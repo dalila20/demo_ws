@@ -5,9 +5,6 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/my_pkg/msg/__init__.py"
   "../rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos.py"
   "../rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos_s.c"
-  "../rosidl_generator_py/my_pkg/srv/__init__.py"
-  "../rosidl_generator_py/my_pkg/srv/_distancia_euclidiana.py"
-  "../rosidl_generator_py/my_pkg/srv/_distancia_euclidiana_s.c"
   "CMakeFiles/my_pkg__py"
 )
 

@@ -7,9 +7,3 @@ CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/d
 CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.o: rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__struct.h
 CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/msg/detail/distancia_dois_pontos__functions.c.o: rosidl_generator_c/my_pkg/msg/rosidl_generator_c__visibility_control.h
 
-CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o: rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c
-CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
-CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o: rosidl_generator_c/my_pkg/msg/rosidl_generator_c__visibility_control.h
-CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o: rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.h
-CMakeFiles/my_pkg__rosidl_generator_c.dir/rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__functions.c.o: rosidl_generator_c/my_pkg/srv/detail/distancia_euclidiana__struct.h
-

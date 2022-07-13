@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos_s.c" "/home/mara/demo_ws/build/my_pkg/CMakeFiles/my_pkg__python.dir/rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos_s.c.o"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/srv/_distancia_euclidiana_s.c" "/home/mara/demo_ws/build/my_pkg/CMakeFiles/my_pkg__python.dir/rosidl_generator_py/my_pkg/srv/_distancia_euclidiana_s.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

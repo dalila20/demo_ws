@@ -15,3 +15,4 @@ launch/rviz.launch.py
 launch/teste.launch.xml
 resource/carro_pkg
 urdf/carro.urdf
+urdf/carro.urdf.xacro

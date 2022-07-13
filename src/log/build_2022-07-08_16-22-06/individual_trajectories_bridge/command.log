@@ -1,1 +1,0 @@
-Invoking command in '/home/mara/demo_ws/src/build/individual_trajectories_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mara/demo_ws/install/carro_pkg:/opt/ros/foxy /usr/bin/cmake /home/mara/demo_ws/src/MARA/individual_trajectories_bridge -DCMAKE_INSTALL_PREFIX=/home/mara/demo_ws/src/install/individual_trajectories_bridge

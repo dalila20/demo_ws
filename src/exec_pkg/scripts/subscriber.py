@@ -1,7 +1,7 @@
 import rclpy
 import math
 from rclpy.node import Node
-from my_pkg.msg import DistanciaDoisPontos                      
+from first_pkg.msg import DistanciaDoisPontos                      
 
 class DisSubscriber(Node):
 
@@ -18,13 +18,13 @@ class DisSubscriber(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-
     dis_subscriber = DisSubscriber()
 
-    rclpy.spin(dis_subscriber)
-
-    dis_subscriber.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.spin(dis_subscriber)
+    except KeyboardInterrupt:
+        dis_subscriber.destroy_node()
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

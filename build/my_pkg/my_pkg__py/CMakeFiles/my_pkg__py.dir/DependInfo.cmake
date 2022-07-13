@@ -10,9 +10,6 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/msg/__init__.py" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos.py" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/msg/_distancia_dois_pontos_s.c" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/srv/__init__.py" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/srv/_distancia_euclidiana.py" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/srv/_distancia_euclidiana_s.c" "/home/mara/demo_ws/build/my_pkg/rosidl_generator_py/my_pkg/_my_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 
